@@ -15,6 +15,11 @@ sudo apt install libusb-1.0-0-dev
 sudo apt install cmake
 sudo apt install gcc-arm-none-eabi
 sudo apt install gtkterm
+sudo apt install mosquitto -y
+sudo apt install libssl-dev
+sudo apt install xsltproc
+sudo apt install libmosquitto-dev
+
 ```
 
 Далее переходим в любую удобную папку и выполняем следующую команду:
