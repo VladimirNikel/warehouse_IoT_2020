@@ -16,6 +16,9 @@ sudo apt install cmake
 sudo apt install gcc-arm-none-eabi
 sudo apt install gtkterm
 sudo apt install mosquitto -y
+sudo apt install mosquitto-dev -y
+sudo apt install libc-ares-dev
+sudo apt install libc-ares2
 sudo apt install libssl-dev
 sudo apt install xsltproc
 sudo apt install libmosquitto-dev
@@ -34,8 +37,8 @@ sudo make install
 **2. Основная работа**
 
 * 2.1 Далее нужно скачать данный репозиторий.
-* 2.2 Подключить плату UMDK-RF к компьютеру в режиме загрузчика (удерживать до подключения клавишу `boot/power`, после подключения отжать клавишу)
-* 2.3 ...
+* 2.2 Подключить плату UMDK-RF к компьютеру в режиме загрузчика (удерживать после подключения клавишу `boot/power`, после перемигивания лампочки прекратить нажатия клавиши)
+* 2.3 Выполнить команду `sudo stm32flash -E -w loralan-gateway.hex -v /dev/ttyACM0` в которой вместо `loralan-gateway.hex` будет указатель на имя hex-файла, и вместо `/dev/ttyACM0` будет имя порта
 
 
 **3. Взаимодействие с самим устройством**
