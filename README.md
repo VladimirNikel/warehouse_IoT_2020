@@ -64,7 +64,7 @@ sudo make install
 
 
 **Чтобы не забыть:**
-* `loralan-gateway.hex` лежит в папке `/dev/IoT/UNWD-RIOT/apps/loralan-gateway/bin/unwd-range-l1-r3`
+- `loralan-gateway.hex` лежит в папке `/dev/IoT/UNWD-RIOT/apps/loralan-gateway/bin/unwd-range-l1-r3`
 + Данный файл был залит на "сервер"...
 
 
